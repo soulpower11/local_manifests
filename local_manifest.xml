@@ -5,7 +5,7 @@
            revision="refs/heads/nAOSP-nougat-mr2.3-release" />
 	
   <remote  name="soulpower11"
-           fetch="https://github.com/mickybart"
+           fetch="https://github.com/soulpower11"
            revision="refs/heads/cm14.1" />
 	
   <remote  name="oms"
