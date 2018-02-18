@@ -12,6 +12,10 @@
            fetch="https://github.com/substratum"
            revision="refs/heads/n-rootless" />
 
+ <project path="build" name="android_build" remote="mickybart">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+	
   <!-- Extras/3rd -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="mickybart" revision="refs/heads/nAOSP-android-7.1.2" />
   <project path="packages/services/ThemeInterfacer" name="interfacer" remote="oms" />
