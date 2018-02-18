@@ -6,7 +6,7 @@
 	
   <remote  name="soulpower11"
            fetch="https://github.com/soulpower11"
-           revision="refs/heads/cm14.1" />
+           revision="refs/heads/cm-14.1" />
 	
   <remote  name="oms"
            fetch="https://github.com/substratum"
