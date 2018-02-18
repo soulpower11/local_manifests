@@ -1,7 +1,7 @@
 LineageOS 14.1 for Sony Xperia Acro S
 ==============
 
-Build
+Instructions
 ==============
 ```
 repo init -u https://github.com/soulpower11/local_manifests -b cm-14.1
