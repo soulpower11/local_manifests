@@ -16,16 +16,16 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="mickybart" revision="refs/heads/nAOSP-android-7.1.2" />
   <project path="packages/services/ThemeInterfacer" name="interfacer" remote="oms" />
 
-  <!-- Sony Xperia S -->
+  <!-- Sony Xperia Acro S -->
  
   <project path="device/sony/dash" name="device_sony_dash" remote="mickybart" />
-  <project path="device/sony/hikari" name="android_device_sony_hikari" remote="soulpower11" />
   <project path="device/sony/thermanager" name="device_sony_thermanager" remote="mickybart" revision="master" />
   <project path="external/openssl_legacy" name="android_external_openssl" groups="pdk" remote="mickybart" />
   <project path="external/stlport" name="android_external_stlport" remote="mickybart" /> 
-  <project path="kernel/msm" name="android_kernel_sony_msm8x60" remote="soulpower11"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="soulpower11" />
-  
+  <project path="kernel/msm" name="android_kernel_sony_msm8x60" remote="soulpower11"/>
+  <project path="device/sony/hikari" name="android_device_sony_hikari" remote="soulpower11" />
+
 </manifest>
