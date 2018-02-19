@@ -11,6 +11,7 @@ repo sync
 
 source build/envsetup.sh
 
-lunch lineage_hikari-userdebug
+breakfast hikari
+brunch hikari
 
 ```
